@@ -1,17 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Grandes Felinos</title>
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+  <header class="topbar">
+    <div class="logo">Felinos</div>
+    <nav>
+      <a href="#especies">Especies</a>
+      <a href="#datos">Datos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Grandes Felinos</h1>
+      <p class="lead">Majestuosidad, velocidad y misterio. Descubre a los depredadores más impresionantes del planeta.</p>
+      <a class="cta" href="#especies">Explorar especies</a>
+    </div>
+  </section>
+
+  <section id="especies" class="grid-section">
+    <h2>Especies destacadas</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=60" alt="León">
+        <div class="card-body">
+          <h3>León</h3>
+          <p>El rey de la sabana, vive en manadas y destaca por su melena y su rugido poderoso.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=800&q=60" alt="Tigre">
+        <div class="card-body">
+          <h3>Tigre</h3>
+          <p>El felino más grande; cazador solitario con un patrón de rayas único en cada individuo.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1501706362039-c6e8097d8d77?auto=format&fit=crop&w=800&q=60" alt="Leopardo">
+        <div class="card-body">
+          <h3>Leopardo</h3>
+          <p>Ágil y sigiloso, excelente trepador; sus manchas le permiten camuflarse en múltiples hábitats.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=60" alt="Jaguar">
+        <div class="card-body">
+          <h3>Jaguar</h3>
+          <p>Potente mordida y gran nadador; el mayor felino de América con un pelaje maculado.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="Guepardo">
+        <div class="card-body">
+          <h3>Guepardo</h3>
+          <p>El animal terrestre más rápido, especializado en aceleraciones cortas para capturar presas.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1535930749574-1399327ce78f?auto=format&fit=crop&w=800&q=60" alt="Leopardo de las nieves">
+        <div class="card-body">
+          <h3>Leopardo de las nieves</h3>
+          <p>Adaptado a alturas extremas; su pelaje y cola ayudan a sobrevivir en climas fríos.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="datos" class="info-section">
+    <h2>Datos rápidos</h2>
+    <ul>
+      <li>Los felinos pertenecen a la familia Felidae.</li>
+      <li>Compartes características: garras retráctiles, visión nocturna y cuerpo ágil.</li>
+      <li>Muchas especies están en peligro por la pérdida de hábitat y la caza.</li>
+    </ul>
+  </section>
+
+  <footer id="contacto">
+    <div class="footer-inner">
+      <p>&copy; 2026 Grandes Felinos — Página educativa</p>
+      <p>Imágenes: Unsplash</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
